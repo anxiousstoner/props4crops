@@ -40,7 +40,7 @@ class Topnav extends React.Component {
           |
           </Menu.Item>
           <Menu.Item key="login">
-            <a href={steemconnect.getLoginURL(next)}>
+            <a href="https://v2.steemconnect.com/oauth2/authorize?client_id=props4&redirect_uri=https://props4crops.herokuapp.com/callback&scope=">
               <FormattedMessage id="login" defaultMessage="Log in" />
             </a>
           </Menu.Item>
