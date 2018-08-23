@@ -95,13 +95,13 @@ const UserHeader = ({
         </div>
       </div>
       <div className="UserHeader__smoke">
-        <div className="UserHeader__smoke-cta">
-            Smoke, Get Paid, Repeat.
+        <div className="UserHeader__props-cta">
+            The first gardening aid society.
         </div>
-        <div className="UserHeader__smoke-about">
+        <div className="UserHeader__props-about">
             Want to help us grow?
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://about.smoke.network">
+        <a target="_blank" rel="noopener noreferrer" href="/@props4crops">
           <button className="SidebarBlock__button">
             <FormattedMessage id="learnmore" defaultMessage="Learn More" />
           </button>

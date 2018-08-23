@@ -111,10 +111,10 @@ export default class User extends React.Component {
           <meta property="og:url" content={url} />
           <meta property="og:image" content={image} />
           <meta property="og:description" content={desc} />
-          <meta property="og:site_name" content="Smoke.Network" />
+          <meta property="og:site_name" content="Props4Crops" />
 
           <meta property="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
-          <meta property="twitter:site" content={'@smokenetwork'} />
+          <meta property="twitter:site" content={'@props4crops'} />
           <meta property="twitter:title" content={title} />
           <meta property="twitter:description" content={desc} />
           <meta

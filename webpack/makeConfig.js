@@ -46,7 +46,7 @@ function makePlugins(options) {
         ENABLE_LOGGER: JSON.stringify(process.env.ENABLE_LOGGER),
         IMG_HOST: JSON.stringify(process.env.IMG_HOST || 'https://img.busy.org'),
         SENTRY_PUBLIC_DSN: isDevelopment ? null : JSON.stringify(process.env.SENTRY_PUBLIC_DSN),
-        STEEMCONNECT_CLIENT_ID: JSON.stringify(process.env.STEEMCONNECT_CLIENT_ID || 'smoke-busy'),
+        STEEMCONNECT_CLIENT_ID: JSON.stringify(process.env.STEEMCONNECT_CLIENT_ID || 'props4'),
         STEEMCONNECT_REDIRECT_URL: JSON.stringify(
           process.env.STEEMCONNECT_REDIRECT_URL || 'http://localhost:3000/callback',
         ),
@@ -102,7 +102,7 @@ function makePlugins(options) {
         filename: '../css/style.[contenthash].css',
       }),
       new HtmlWebpackPlugin({
-        title: 'Smoke Network',
+        title: 'Props4Crops',
         filename: '../index.html',
         template: path.join(options.baseDir, '/templates/production_index.html'),
       }),
