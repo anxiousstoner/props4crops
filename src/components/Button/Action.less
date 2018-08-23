@@ -1,0 +1,38 @@
+@import (reference) "../../styles/custom.less";
+@import (reference) "../../styles/mixins.less";
+
+.Action {
+  .btn;
+  .btn-default;
+
+  .colorize-button(#c2ccd3, #99aab5);
+
+  color: @grey-mortar;
+  width: 100%;
+
+  &--primary {
+    .colorize-button(@green, #428424);
+
+    color: @grey-mortar;
+
+    &:disabled,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: @grey-mortar !important;
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: @grey-mortar;
+  }
+
+  & .anticon {
+    vertical-align: -1px;
+    margin-right: 8px;
+  }
+}

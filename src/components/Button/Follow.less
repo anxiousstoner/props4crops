@@ -1,0 +1,22 @@
+@import (reference) "../../styles/custom.less";
+@import (reference) "../../styles/mixins.less";
+
+.Follow {
+  box-shadow: 0 3px 15px rgba(0,0,0,.2);
+  
+  .btn;
+  .btn-primary;
+
+  .colorize-button(@green, #5cb334);
+
+  color: @grey-mortar;
+
+  & > .anticon {
+    margin-right: 12px;
+  }
+}
+
+.Follow--danger {
+  color: #fff !important;
+  .colorize-button(@red, @red);
+}
