@@ -96,16 +96,19 @@ const UserHeader = ({
       </div>
       <div className="UserHeader__smoke">
         <div className="UserHeader__props-cta">
-            The first gardening aid society.
+             ShrooooOOoOms Decentralized.
         </div>
         <div className="UserHeader__props-about">
             Want to help us grow?
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="/@props4crops">
+        <a target="_blank" rel="noopener noreferrer" href="/@shroomotopia">
           <button className="SidebarBlock__button">
             <FormattedMessage id="learnmore" defaultMessage="Learn More" />
           </button>
        </a>
+      <br />
+       <FormattedMessage id="PoweredBy" defaultMessage="Powered By" />
+        <a href="https://smoke.io/><FormattedMessage id="SmokeIo" defaultMessage="Smoke.io" /> </a>
       </div>
     </div>
   </div>
