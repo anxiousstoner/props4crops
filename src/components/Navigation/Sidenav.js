@@ -52,12 +52,12 @@ const Sidenav = ({ username }) => {
     return (
       <div className="SidebarBlock">
         <h3 className="SidebarBlock__title">
-          <FormattedMessage id="new_to_smoke" defaultMessage="What is Props4Crops?" />
+          <FormattedMessage id="new_to_smoke" defaultMessage="Powered By:" />
         </h3>
 
-        <a target="_blank" rel="noopener noreferrer" href="/@props4crops">
+        <a target="_blank" rel="noopener noreferrer" href="https://smoke.io">
           <button className="SidebarBlock__button">
-            <FormattedMessage id="learnmore" defaultMessage="Learn more" />
+            <FormattedMessage id="learnmoreo" defaultMessage="smoke.io" />
           </button>
         </a>
       </div>
