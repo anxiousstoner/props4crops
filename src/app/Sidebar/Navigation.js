@@ -20,6 +20,6 @@ Navigation.propTypes = {
 export default connect(
   state => ({
     trendingTopicsLoading: false,
-    trendingTopics: ["props4crops", "gardening", "organic"],
+    trendingTopics: ["mushrooms", "shrooms", "mushies", "mushroomgrow", "mushroomspores"],
   }),
 )(Navigation);
