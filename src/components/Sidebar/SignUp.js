@@ -6,7 +6,7 @@ import ModalSignUp from '../Modal/ModalSignUp'
 const SignUp = () =>
   (<div className="SidebarBlock">
     <h3 className="SidebarBlock__title">
-      <FormattedMessage id="new_to_props" defaultMessage="New to Props4Crops?" />
+      <FormattedMessage id="new_to_props" defaultMessage="New to Shroomotopia.net?" />
     </h3>
     <div className="Steps Step1">
       <i className="iconfont icon-success_fill SidebarBlock__steps" />
