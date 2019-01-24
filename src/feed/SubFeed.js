@@ -66,7 +66,7 @@ class SubFeed extends React.Component {
   componentDidMount() {
     const { authenticated, loaded, user, match } = this.props;
     const sortBy = match.params.sortBy || 'trending';
-    const category = match.params.category || 'gardening';
+    const category = match.params.category || 'mushrooms';
 
     if (!loaded && Cookie.get('access_token')) return;
 
@@ -97,7 +97,7 @@ class SubFeed extends React.Component {
     ) {
       this.props.getUserFeedContent(user.name);
     } else if (oldSortBy !== newSortBy || oldCategory !== newCategory || (!wasLoaded && isLoaded)) {
-      this.props.getFeedContent(newSortBy || 'trending', match.params.category || 'gardening');
+      this.props.getFeedContent(newSortBy || 'trending', match.params.category || 'mushrooms');
     }
   }
 
@@ -116,7 +116,7 @@ class SubFeed extends React.Component {
       loadMoreContent = () => this.props.getMoreUserFeedContent(user.name);
     } else {
       const sortBy = match.params.sortBy || 'trending';
-      const category = match.params.category || 'gardening';
+      const category = match.params.category || 'mushrooms';
 
       content = getFeedContentFromState(sortBy, category, feed, posts);
       isFetching = getFeedLoadingFromState(sortBy, category, feed);
