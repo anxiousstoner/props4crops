@@ -108,7 +108,7 @@ const UserHeader = ({
        </a>
       <br />
        <FormattedMessage id="PoweredBy" defaultMessage="Powered By" />
-        <a href="https://smoke.io/>Smoke.io</a>
+        <a href="https://smoke.io">Smoke.io</a>
       </div>
     </div>
   </div>
